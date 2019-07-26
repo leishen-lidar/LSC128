@@ -1,0 +1,10 @@
+<library path="lib/liblslidar_c128_decoder_nodelet">
+  <class name="lslidar_c128_decoder/LslidarC128DecoderNodelet"
+         type="lslidar_c128_decoder::LslidarC128DecoderNodelet"
+         base_class_type="nodelet::Nodelet">
+    <description>
+      Aggregates points from multiple packets, publishing LslidarC128Sweep msg defined
+      in lslidar_c128_msgs.
+    </description>
+  </class>
+</library>
